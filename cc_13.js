@@ -65,3 +65,9 @@ function addEmployeeCard(name, position) {
         }); // event listener for save button and inner text appending
     });
 }
+
+// Test Case- Task 2
+
+addEmployeeCard('Samantha Jones', 'Data Analyst');
+addEmployeeCard('Talia Lopez', 'Marketing Manager');
+addEmployeeCard('Jude Agrebi', 'Software Engineer');
