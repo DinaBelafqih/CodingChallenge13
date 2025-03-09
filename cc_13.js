@@ -8,3 +8,4 @@ function addEmployeeCard(name, position) {
     heading.textContent = name;
 
     const paragraph = document.createElement('h3'); // position is a paragragh
+    paragraph.textContent = position;
