@@ -9,3 +9,12 @@ function addEmployeeCard(name, position) {
 
     const paragraph = document.createElement('h3'); // position is a paragragh
     paragraph.textContent = position;
+
+    const removeButton = document.createElement('button'); // making remove button
+    removeButton.textContent = 'Remove';
+
+    const editButton = document.createElement('button'); // makeing edit button - task 5
+    editButton.textContent = 'Edit';
+
+    // appending elements to the card
+    card.appendChild(heading);
