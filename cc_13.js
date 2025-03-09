@@ -26,3 +26,5 @@ function addEmployeeCard(name, position) {
     document.getElementById('employeeContainer').appendChild(card);
 
     // remove functionality
+    removeButton.addEventListener('click', function(event) {
+        // Task 4 - Employee Card Removal with Event Bubbling
