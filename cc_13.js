@@ -28,3 +28,5 @@ function addEmployeeCard(name, position) {
     // remove functionality
     removeButton.addEventListener('click', function(event) {
         // Task 4 - Employee Card Removal with Event Bubbling
+        console.log('Remove button has been clicked');
+        event.stopPropagation();
