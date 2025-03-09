@@ -19,3 +19,10 @@ function addEmployeeCard(name, position) {
     // appending elements to the card
     card.appendChild(heading);
     card.appendChild(paragraph);
+    card.appendChild(editButton);
+    card.appendChild(removeButton);
+
+    // appending card to employee container
+    document.getElementById('employeeContainer').appendChild(card);
+
+    // remove functionality
