@@ -62,3 +62,5 @@ function addEmployeeCard(name, position) {
             card.appendChild(paragraph);
             card.appendChild(editButton);
             card.appendChild(removeButton);
+        }); // event listener for save button and inner text appending
+    });
