@@ -71,3 +71,16 @@ function addEmployeeCard(name, position) {
 addEmployeeCard('Samantha Jones', 'Data Analyst');
 addEmployeeCard('Talia Lopez', 'Marketing Manager');
 addEmployeeCard('Jude Agrebi', 'Software Engineer');
+
+// Task 3 - Bulk Update on Employee Cards
+function bulkUpdateEmployeeCards() {
+    const cards = document.querySelectorAll('.employee-card');
+    const cardArray = Array.from(cards);
+
+    cardArray.forEach(card => {
+        card.style.backgroundColor = 'lightgreen';
+    }); // function for bulk updating to cards
+}
+
+// activating bulk update function
+bulkUpdateEmployeeCards();
