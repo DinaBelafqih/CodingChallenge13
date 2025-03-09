@@ -18,3 +18,4 @@ function addEmployeeCard(name, position) {
 
     // appending elements to the card
     card.appendChild(heading);
+    card.appendChild(paragraph);
