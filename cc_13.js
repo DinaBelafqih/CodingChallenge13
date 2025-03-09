@@ -64,3 +64,4 @@ function addEmployeeCard(name, position) {
             card.appendChild(removeButton);
         }); // event listener for save button and inner text appending
     });
+}
